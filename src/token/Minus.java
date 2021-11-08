@@ -1,10 +1,10 @@
 package token;
 
-public class Subtract implements Operation {
+public class Minus implements Operation {
     public String toString() {
-        return "PLUS";
+        return "MINUS";
     }
-    
+
     @Override
     public int calc(int first, int second) {
         return first - second;

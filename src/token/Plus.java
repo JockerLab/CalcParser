@@ -1,8 +1,8 @@
 package token;
 
-public class Add implements Operation {
+public class Plus implements Operation {
     public String toString() {
-        return "ADD";
+        return "PLUS";
     }
 
     @Override

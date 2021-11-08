@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum State {
+public enum State {
+    START, NUMBER, ERROR, END;
 }
